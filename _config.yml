@@ -1,11 +1,11 @@
 # Site settings
-author: Anysia V.
-title: 
+author: .
+title: .
 header-img: img/home-bg.png
 email: anysiavalko@gmail.com
-copyright_name: Anysia V.
+copyright_name: .
 description: > # this means to ignore newlines until "baseurl:"
-  
+  .
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  anysiavalko
