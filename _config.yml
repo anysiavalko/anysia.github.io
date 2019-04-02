@@ -1,9 +1,9 @@
 # Site settings
-author: .
+author: Anysia
 title: .
 header-img: img/home-bg.png
 email: anysiavalko@gmail.com
-copyright_name: .
+copyright_name: Anysia
 description: > # this means to ignore newlines until "baseurl:"
   .
 baseurl: "" # the subpath of your site, e.g. /blog
