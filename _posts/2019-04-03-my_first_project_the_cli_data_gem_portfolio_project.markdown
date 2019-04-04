@@ -146,7 +146,7 @@ class Birthstones::CLI
           puts "#{stone.month} - #{stone.name}."
         end
         puts "Overview:\n #{stone.overview}"
-        puts "To learn more, visit #{stone.learn_more}."
+        puts "To learn more, visit #{stone.learn_more}"
       elsif input == "list"
         list_birthstones
       elsif input == "done"
