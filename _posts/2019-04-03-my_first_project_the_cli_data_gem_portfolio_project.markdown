@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First Project: The CLI Data Gem Portfolio Project"
-date:       2019-04-03 15:56:51 +0000
+date:       2019-04-03 11:56:52 -0400
 permalink:  my_first_project_the_cli_data_gem_portfolio_project
 ---
 
@@ -135,8 +135,8 @@ class Birthstones::CLI
   def main_menu
     input = nil
     while input != "done"
-      puts "If you would like to find out more about a particular birthstone, please enter just the number of month. For example, to view July's birthstone, type '7'."
-      puts "You can always type 'list' to view the list of birthstones by month again."
+      puts "If you would like to find out more about a particular birthstone, please enter just the number of the month. For example, to view July's birthstone, type '7'."
+      puts "You can always type 'list' to view the list of birthstones by month again, or 'done' to exit the program."
       input = gets.strip.downcase
       if input.to_i > 0
         stone = Birthstones::Stone.all[input.to_i-1]
